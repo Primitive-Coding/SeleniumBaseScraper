@@ -2,6 +2,16 @@
 
 This respository is a "helper" for other scraper repositories.
 
+- Provides functions to get your scraper up to speed such as:
+
+  - create_browser() # Creates a chromium browser directed at your desired url.
+  - read_data() # Get information from a web element via it's Xpath.
+  - click_button() # Navigate to a button via it's Xpath, and click it.
+
+- Miscellaneous functions include:
+  - formatting numbers to or from a $ format (helpful with scraping financial websites)
+  - Date utilities, to add, subtract, or compare dates (helpful with scraping finacial statements)
+
 ### Setup
 
 1. Clone the repository:
